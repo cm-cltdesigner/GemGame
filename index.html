@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector | Courtney</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Courtney's Gem Collector</h1>
+	</div>
+	<div class="rules">
+		<h3>How To PLAY</h3>
+        </br>
+        
+		1. You will be given a random number at the start of the game.<br>
+        2. There are four crystals below.<br>
+        <li id="blue">Blue</li>
+		<li id="green">Green</li>
+		<li id="red">Red</li>
+		<li id="yellow">Yellow</li>
+		3. By clicking on a crystal, you will add a specific amount of points to your total score.<br>
+		4. You win the game by matching your total score to the random number.<br>
+		5. You lose the game if your total score goes above the random number.<br>
+		6. The value of each crystal is hidden from you until you click on it.<br>
+		7. Each time when the game starts, the game will change the values of each crystal.
+	
+	</div>
+	<div class="numberToGet">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="gems">
+		<img src="assets/images/blue.jpg" class=gemPic id="one">
+		<img src="assets/images/green.jpg" class=gemPic id="two">
+		<img src="assets/images/red.jpg" class=gemPic id= "three">
+		<img src="assets/images/yellow.jpg" class=gemPic id= "four">
+	</div>
+	<div class="userTotal">
+		<h2>Final Score:
+			<span id="finalTotal"></span>
+        </h2>
+        <footer class="footer">
+                <p>Powered By: GitCreativ LLC.&copy; | 2019</p>
+            </div>
+        </footer>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+</html>
